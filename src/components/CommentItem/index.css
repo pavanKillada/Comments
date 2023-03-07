@@ -1,0 +1,103 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+li {
+  list-style: none;
+  font-family: 'roboto';
+  box-shadow: lightgray 0px 1px 5px;
+  padding-left: 20px;
+}
+.profile-comment {
+  display: flex;
+}
+.profile-pic {
+  border: none;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.name-time {
+  display: flex;
+  align-items: center;
+}
+.user-name {
+  font-size: 25px;
+  margin-right: 20px;
+  font-weight: 700;
+}
+.time {
+  color: gray;
+  font-size: 12px;
+}
+.user-comment {
+  color: #64748b;
+  margin-top: 10px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+button {
+  background-color: transparent;
+  border: none;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.like-img-btn {
+  margin-left: 0;
+}
+.like-img {
+  width: 25px;
+}
+.like-btn {
+  color: grey;
+  font-size: 16px;
+  font-weight: 600;
+}
+.delete-img-btn {
+  margin-left: auto;
+}
+.delete-img {
+  width: 20px;
+}
+.active-like-btn {
+  color: #0ea5e9;
+  font-weight: 600;
+}
